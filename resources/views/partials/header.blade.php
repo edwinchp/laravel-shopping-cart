@@ -16,9 +16,10 @@
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#"><i class="fas fa-shopping-cart"></i> Shopping Cart</a></li>
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user"></i> User Account<span class="caret"></span></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user"></i> User Management<span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="#">User Account</a></li>
+              <li><a href="{{route('user.signup')}}">Signup</a></li>
+              <li><a href="#">Signin</a></li>
               <li><a href="#">Logout</a></li>
             </ul>
           </li>
