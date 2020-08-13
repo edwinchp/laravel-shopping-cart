@@ -58,9 +58,8 @@ class UserController extends Controller
 
     public function getProfile()
     {
-        $userId = Auth::id();
         $email = Auth::user()->email;
-        return view('user.profile', ['userId' => $userId, 'email' => $email]);
+        return view('user.profile', ['email' => $email]);
     }
 
     public function getLogout()
