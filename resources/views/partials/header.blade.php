@@ -16,7 +16,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="#"><i class="fas fa-shopping-cart"></i> Shopping Cart
+                <a href="{{route('product.shoppingCart')}}"><i class="fas fa-shopping-cart"></i> Shopping Cart
                     <span class="badge">{{Session::get('cart') ? Session::get('cart')->totalQty : 0}}</span></a>
                 </li>
                 <li class="dropdown">
